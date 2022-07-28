@@ -124,39 +124,41 @@ button {
     margin: auto;
 }
 
-.score { 
-    
+.score {
+
     height: 50px;
 }
 
 #scoreboard {
-    
+
     font-size: 35px;
     margin: auto;
-    
+
 }
 
-.numbers{
+.numbers {
     display: flex;
 }
 
-.you{
+.you {
     padding-left: 120px;
     padding-right: 70px;
 }
-.zero{
+
+.zero {
     padding-left: 160px;
 }
 
-#zerozerozero{
-    
+#zeroMy {
+
     font-size: 80px;
-    
+
 }
-#zerozero{
+
+#zeroPc {
     padding-left: 220px;
     font-size: 80px;
-    
+
 }
 
 footer {
@@ -179,10 +181,113 @@ footer {
     padding-top: 10px;
 }
 
-button:hover{
-    color:gray
+button:hover {
+    color: gray
 }
 
-button:active{
+button:active {
     color: purple;
+}
+
+@media screen and (max-width:806px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 390px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    nav {
+        width: 390px;
+    }
+
+    .input {
+        width: 200px;
+    }
+
+    main {
+        width: 390px;
+    }
+
+    #title {
+        font-size: 25px;
+        padding-left: 30px;
+    }
+
+    .img {
+        height: 100px;
+    }
+
+    #firstImg {
+        margin-left: 40px;
+    }
+
+    #secondImg {
+        margin-left: 120px;
+    }
+
+    #buttons {
+        padding: 5px;
+    }
+
+    #buttonStone {
+        font-size: 20px;
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+    }
+
+    #buttonPaper {
+        font-size: 20px;
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 30px;
+    }
+
+    #buttonScissors {
+        font-size: 20px;
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 30px;
+    }
+
+    .result {
+        width: 390px;
+    }
+
+    #status {
+        font-size: 25px;
+    }
+
+    .numbers {
+        width: 390px;
+        padding-top: 10px;
+        
+    }
+
+    .you {
+        padding-left: 20px;
+        padding-right: 70px;
+        font-size: 35px;
+        
+    }
+    #zeroMy{
+        font-size: 60px;
+        padding-left: 70px;
+    }
+    #zeroPc{
+        font-size: 60px;
+        padding-left: 100px;
+    }
+    footer {
+        width: 390px;
+    }
 }
