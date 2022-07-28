@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>jokenpo</title>
+</head>
+
+<body>
+    <header>
+
+        <h1 class="title">Jogo: Pedra Papel e Tesoura</h1>
+
+    </header>
+
+    <nav>
+        <label for="Nome:"> Jogador:
+            <input type="text" placeholder="Digite o seu nome" autofocus>
+        </label>
+    </nav>
+
+
+    <main>
+        <section id="title">
+            <p class="p">Você</p>
+            <p class="p">VS</p>
+            <p class="p">Computador</p>
+        </section>
+        <section class="img">
+            <img src="./Assets/interrogação.png" alt="firstImg" id="firstImg">
+            <img src="./Assets/interrogação.png" alt="papel" id="secondImg">
+        </section>
+        <br>
+        <section>
+            <button id="buttonStone" type"button">Pedra 🪨</button>
+            <button id="buttonPaper" type"button">Papel 📝</button>
+            <button id="buttonScissors" type"button">Tesoura ✂️</button>
+        </section >
+        <section class="result">
+            <p id="status">🍀 Faça a sua escolha 🍀</p>
+        </section>
+        <section class="score">
+            <p id="scoreboard">PLACAR</p>
+        </section>
+        <section class="numbers">
+            <div>
+                <p class="you">Você</p>
+                <p class="zero" id="zeroMy">0</p>
+            </div>
+            <div>
+                <p class="you">Computador</p>
+                <p class="zero" id="zeroPc">0</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="rules">Regras:</p>
+
+        <p id="rulesrules"> Pedra, papel e tesoura, também popularmente conhecido como Jokenpô, é um jogo em que as
+            pessoas jogam com as mãos, escolhendo entre pedra (mão fechada), papel (mão espalmada) e tesoura (dois dedos
+            a frente).<br/>
+            O jogo é similar ao "par ou ímpar", porém com uma variável a mais. <br/>
+            E funciona assim: Cada jogador escolhe uma opção. A tesoura corta o papel, mas quebra com a
+            pedra; o papel embrulha a pedra, mas é cortado pela tesoura e a pedra quebra a tesoura e é embrulhada pelo
+            papel. 
+            O desafio aqui é vencer o computador 10 vezes! <br/>
+            Faça a sua escolha e boa sorte!</p>
+    </footer>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
