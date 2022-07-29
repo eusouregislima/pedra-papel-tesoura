@@ -72,7 +72,7 @@ const changeImg = () => {
     } 
 
     if (number === 3) {
-        pcImg.src = "./Assets/tesoura.png";
+        pcImg.src = "./Assets/tesouraPc.png";
         statusOne.innerHTML = 'Vitória 😁 Jogue Novamente';
 
         myResult.innerHTML = `${myResult.innerHTML} +1`;
@@ -112,7 +112,7 @@ const changeSecondImg = () => {
     }
 
      if (number === 3) {
-        pcImg.src = "./Assets/tesoura.png";
+        pcImg.src = "./Assets/tesouraPc.png";
         statusOne.innerHTML = 'Derrota 😕 Jogue Novamente';
 
         pcResult.innerHTML = `${pcResult.innerHTML} +1`;
@@ -153,7 +153,7 @@ const changeThirdButton = () => {
     } 
     
     if(number === 3) {
-        pcImg.src = "./Assets/tesoura.png"
+        pcImg.src = "./Assets/tesouraPc.png"
         statusOne.innerHTML = 'Empate 🙄 Jogue Novamente'
     };
 
