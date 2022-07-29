@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
     <title>jokenpo</title>
 </head>
 
@@ -22,8 +28,10 @@
 
     <nav>
         <label for="Nome:"> Jogador:
-            <input class="input" type="text" placeholder="Digite o seu nome" autofocus>
+            <input id="input" class="input" type="text" placeholder="Digite o seu nome" autofocus maxlength="7"
+                value="">
         </label>
+        <button type="button" id="start"><span><b>Iniciar</b></span></button>
     </nav>
 
 
@@ -35,23 +43,20 @@
         </section>
         <section class="img">
             <img src="./Assets/interrogação.png" alt="firstImg" id="firstImg">
-            <img src="./Assets/interrogação.png" alt="papel" id="secondImg">
+            <img src="./Assets/interrogaçãoDois.png" alt="papel" id="secondImg">
         </section>
         <br>
         <section id="buttons">
             <button id="buttonStone" type"button">Pedra 🪨</button>
             <button id="buttonPaper" type"button">Papel 📝</button>
             <button id="buttonScissors" type"button">Tesoura ✂️</button>
-        </section >
+        </section>
         <section class="result">
-            <p id="status">🍀 Faça a sua escolha 🍀</p>
+            <p id="status">⌨️ Digite o seu nome 🚀</p>
         </section>
-        <section class="score">
-            <p id="scoreboard">PLACAR</p>
-        </section>
-        <section class="numbers">
+                <section class="numbers">
             <div>
-                <p class="you">Você</p>
+                <p class="you" id="myName">Você</p>
                 <p class="zero" id="zeroMy">0</p>
             </div>
             <div>
@@ -66,12 +71,13 @@
 
         <p id="rulesrules"> Pedra, papel e tesoura, também popularmente conhecido como Jokenpô, é um jogo em que as
             pessoas jogam com as mãos, escolhendo entre pedra (mão fechada), papel (mão espalmada) e tesoura (dois dedos
-            a frente).<br/>
-            O jogo é similar ao "par ou ímpar", porém com uma variável a mais. <br/>
+            a frente).<br />
+            O jogo é similar ao "par ou ímpar", porém com uma variável a mais. <br />
             E funciona assim: Cada jogador escolhe uma opção. A tesoura corta o papel, mas quebra com a
             pedra; o papel embrulha a pedra, mas é cortado pela tesoura e a pedra quebra a tesoura e é embrulhada pelo
-            papel. 
-            O desafio aqui é vencer o computador 10 vezes! <br/>
+            papel.
+            O desafio aqui é vencer o computador 10 vezes! <br />
+            Começe colocando o seu nome e clique em iniciar. <br>
             Faça a sua escolha e boa sorte!</p>
     </footer>
 
