@@ -12,4 +12,4 @@ Print do Projeto
 <img src="./Assets/Print.png">
 
 Link do projeto
-<a href="https://eusouregislima.github.io/pedra-papel-tesoura/">clique aqui<a/>
+<a href="https://eusouregislima.github.io/pedra-papel-tesoura/" target="_blank>clique aqui<a/>
