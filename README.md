@@ -1,5 +1,6 @@
 Reprodução do jogo Pedra, papel e tesoura - Popularmente conhecido como Jokenpô
 
+Meu primeiro projeto aplicando Javascript
 
 Tecnologias utilizadas na costrução do projeto
 <br>
